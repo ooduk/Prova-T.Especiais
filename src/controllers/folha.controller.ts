@@ -61,6 +61,8 @@ export class FolhaController{
     }
 
     buscar(request : Request, response : Response) : Response{
+
+        // Faltou fazer a folha completa também na busca, se o usuário somente insere e busca ele retorna a folha sem os cálculos
         const cpf = request.params.cpf;
         const mes = request.params.mes;
         const ano = request.params.ano;
