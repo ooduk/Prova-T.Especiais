@@ -5,4 +5,9 @@ export class Folha{
     valor! : number;
     mes! : number;
     ano! : number;
+    bruto!: number;
+    irff!: number;
+    inss!: number;
+    fgts!: number;
+    liquido!: number;
 }
