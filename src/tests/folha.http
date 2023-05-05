@@ -1,0 +1,15 @@
+GET http://localhost:3000/folha/listar
+###
+GET http://localhost:3000/folha/buscar/123.456.789-11/5/2023
+###
+POST http://localhost:3000/folha/cadastrar
+Content-Type: application/json
+
+{
+    "nome": "Gustavo",
+    "cpf": "123.456.789-12",
+    "horas": 100,
+    "valor": 50,
+    "mes": 5,
+    "ano": 2023
+}
